@@ -11,8 +11,8 @@ This project is organized in the following steps:
 2. Polarity and Intensity calculation with FinBERT and VADER;
 3. Analysis and comparison of results;
 4. Group by day and averaging to get the sentiment day-by-day;
-5. Estimation of ARIMAX$(1,1,0)$ to forecast the S&P500 1-step-ahead including, as external regressor, the average daily sentiment computed by the models (one at the time);
-6. Error measure analysis: see how the ARIMAX$(1,1,0)$ with FinBERT and the ARIMAX$(1,1,0)$ with VADER  performed and if they are better than a simple ARIMA$(1,1,0)$ according to the Root Mean Squared Prediction Error (RMSPE) and to the Mean Directional Accuracy (MDA);
+5. Estimation of ARIMAX(1,1,0) to forecast the S&P500 1-step-ahead including, as external regressor, the average daily sentiment computed by the models (one at the time);
+6. Error measure analysis: see how the ARIMAX(1,1,0) with FinBERT and the ARIMAX(1,1,0) with VADER  performed and if they are better than a simple ARIMA(1,1,0) according to the Root Mean Squared Prediction Error (RMSPE) and to the Mean Directional Accuracy (MDA);
 7. The R file contains a small appendix aimed to improve the results.
 
 Any feedback is highly appreciated! Hope to hear from you on [LinkedIn](https://linkedin.com/in/guglielmo-berzano)!
